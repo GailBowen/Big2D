@@ -6,6 +6,11 @@ $heading = 'Believe you can remember every single word';
 
 $body = 'This app will get you learning and <i>remembering</i> every word';
 
+$firstName = 'Gail';
+$lastName = 'Foad';
+
+$fullName = $firstName . ' ' . $lastName;
+
 ?>
 
 <head>
@@ -24,7 +29,7 @@ $body = 'This app will get you learning and <i>remembering</i> every word';
         <div class="bg-white rounded-lg shadow-md p6">
             <h2 class="text-2xl font-semibold mb-4"> <?= $heading ?></h2>
 
-            <p><?= $body ?></p>
+            <p><?= "Hello, is your name {$fullName}?" ?></p>
 
         </div>
     </div>
