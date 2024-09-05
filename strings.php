@@ -26,8 +26,8 @@ $output = strtoupper($string);
 
 $output = ucwords($string);
 
-$output =  ' bob the builder ';
-//$output =  trim(' bob the builder ');
+//$output =  ' bob the builder ';
+$output =  trim(' bob the builder ');
 
 ?>
 
