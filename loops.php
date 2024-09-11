@@ -33,7 +33,7 @@ $body = 'This app will get you learning and <i>remembering</i> every word';
     <title><?= $title ?></title>
 </head>
 
-<body class-"bg-gray-100">
+
 
 <?php $i=10;?>
 <ul>
@@ -59,4 +59,3 @@ $body = 'This app will get you learning and <i>remembering</i> every word';
 
 </ul>
 
-</body>
